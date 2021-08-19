@@ -1,0 +1,196 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #160647;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #160647;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+header{
+	padding: 40px;
+}
+header section.wrapper{
+
+}
+header section.wrapper section.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header section.wrapper section.container div.left{
+
+}
+header section.wrapper section.container div.left h1{
+
+}
+header section.wrapper section.container div.left h1 a{
+
+}
+header section.wrapper section.container div.left h1 a img{
+	display: block;
+    width: 75px;
+}
+header section.wrapper section.container div.middle{
+
+}
+header section.wrapper section.container div.middle ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+}
+header section.wrapper section.container div.middle ul li{
+	margin-right: 40px;
+}
+header section.wrapper section.container div.middle ul li a{
+	color: #160647;	
+}
+header section.wrapper section.container div.middle ul li a.active{
+	border-bottom: 1px solid #160647;
+}
+header section.wrapper section.container div.middle ul li a:hover{
+	border-bottom: 1px solid #160647;
+}
+header section.wrapper section.container div.right{
+
+}
+header section.wrapper section.container div.right a{
+	color: #160647;	
+	margin-right: 20px;
+}
+header section.wrapper section.container div.right a.button{
+	background: #160647;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 8px
+}
+#spotlight{
+	background: url(../images/strip.png) no-repeat;
+	background-position: right 157px;
+	background-size: 21%;
+}
+#spotlight section.wrapper{
+	text-align: center;
+}
+#spotlight section.wrapper h2{
+	font-size: 65px;
+	font-weight: 900;
+	margin-bottom: 20px;
+	padding-top: 30px;
+}
+#spotlight section.wrapper h6{
+	font-size: 16px;
+	color: #160647;
+}
+#spotlight section.wrapper section.content{
+	display: flex;
+	align-items: center;
+	padding-left: 280px;
+}
+#spotlight section.wrapper section.content div.left{
+	text-align: left;
+}
+#spotlight section.wrapper section.content div.left img{
+	width: 70%;
+	display: inline;
+}
+#spotlight section.wrapper section.content div.left h3{
+	font-size: 25px;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 15px;	
+}
+#spotlight section.wrapper section.content div.left p{
+	padding-bottom: 50px;
+}
+#spotlight section.wrapper section.content div.right{
+
+}
+#spotlight section.wrapper section.content div.right img{
+
+}
+#spotlight section.wrapper section.content div.right h3{
+
+}
+#spotlight section.wrapper section.content div.right p{
+
+}
+
+
+
+
+
+
+
+
+
+
+
