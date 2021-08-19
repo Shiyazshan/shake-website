@@ -134,8 +134,8 @@ header section.wrapper section.container div.right a.button{
 }
 #spotlight{
 	background: url(../images/strip.png) no-repeat;
-	background-position: right 157px;
-	background-size: 21%;
+	background-position: right 243px;
+	background-size: 21%;	
 }
 #spotlight section.wrapper{
 	text-align: center;
@@ -153,23 +153,26 @@ header section.wrapper section.container div.right a.button{
 #spotlight section.wrapper section.content{
 	display: flex;
 	align-items: center;
-	padding-left: 280px;
+	padding-left: 380px;
+	margin-top: 80px;
 }
 #spotlight section.wrapper section.content div.left{
 	text-align: left;
 }
 #spotlight section.wrapper section.content div.left img{
-	width: 70%;
+	width: 80%;
 	display: inline;
 }
 #spotlight section.wrapper section.content div.left h3{
-	font-size: 25px;
-	font-weight: 700;
+	font-size: 34px;
+	font-weight: 900;
 	margin-top: 30px;
 	margin-bottom: 15px;	
 }
 #spotlight section.wrapper section.content div.left p{
 	padding-bottom: 50px;
+	font-size: 20px;
+	color: #160647;
 }
 #spotlight section.wrapper section.content div.right{
 
